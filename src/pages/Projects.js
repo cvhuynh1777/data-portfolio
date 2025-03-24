@@ -39,10 +39,10 @@ function Projects() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
             <a href="https://public.tableau.com/app/profile/christina.huynh1211/viz/NBAShotPredictor/NBAShotPredictor" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 text-lg font-medium transition">
-              🚀 View Live Dashboard →
+            📊 View Tableau Dashboard →
             </a>
             <a href="https://github.com/cvhuynh1777/nba_shot_analysis_project/blob/main/NBA%20Shot%20Analysis.ipynb" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 text-lg font-medium transition">
-              📓 View Case Study Notebook →
+            🧠 View Case Study Notebook →
             </a>
           </div>
         </div>
@@ -85,7 +85,7 @@ function Projects() {
             <a href="https://public.tableau.com/app/profile/christina.huynh1211/viz/BA_Reviews_SentimentDashboard/Dashboard1" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 text-lg font-medium transition">
               📊 View Tableau Dashboard →
             </a>
-            <a href="https://github.com/cvhuynh1777/airline_review_sentiment" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 text-lg font-medium transition">
+            <a href="https://github.com/cvhuynh1777/airline_review_sentiment/blob/main/Reviews%20Sentiment%20Analysis.ipynb" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 text-lg font-medium transition">
               🧠 View GitHub Repo →
             </a>
           </div>
@@ -105,7 +105,7 @@ function Projects() {
           </p>
           <div className="pt-2">
             <a href="https://github.com/cvhuynh1777/IEOR142/blob/main/README.md" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 text-lg font-medium transition">
-              📘 View GitHub Report →
+            🧠 View Report →
             </a>
           </div>
         </div>
