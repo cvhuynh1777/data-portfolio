@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import shotPredictorGif from "../assets/shot_predictor_demo.gif";
-import splitmateGif from "../assets/splitmate_demo.gif";
+//import splitmateGif from "../assets/splitmate_demo.gif";
 import reviewSentimentGif from "../assets/reviews_sentiment_analysis.gif";
 import nbaChampionGif from "../assets/nba_champion.gif";
 
