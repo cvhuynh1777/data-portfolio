@@ -60,8 +60,6 @@ function Projects() {
             Tools: Python, Streamlit, Google Cloud Vision, OpenAI GPT
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
-            <a href="https://splitmate.streamlit.app" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 text-lg font-medium transition">
-              🚀 Live Demo →
             </a>
             <a href="https://github.com/cvhuynh1777/splitmate" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 text-lg font-medium transition">
               🧠 View GitHub Repo →
