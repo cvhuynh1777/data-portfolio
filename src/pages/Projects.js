@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import shotPredictorGif from "../assets/shot_predictor_demo.gif";
-import amazonLaptopsGif from "../assets/amazon_laptops.gif";
+import splitmateGif from "../assets/splitmate_demo.gif";
 import reviewSentimentGif from "../assets/reviews_sentiment_analysis.gif";
 import nbaChampionGif from "../assets/nba_champion.gif";
 
@@ -39,31 +39,31 @@ function Projects() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
             <a href="https://public.tableau.com/app/profile/christina.huynh1211/viz/NBAShotPredictor/NBAShotPredictor" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 text-lg font-medium transition">
-            📊 View Tableau Dashboard →
+              📊 View Tableau Dashboard →
             </a>
             <a href="https://github.com/cvhuynh1777/nba_shot_analysis_project/blob/main/NBA%20Shot%20Analysis.ipynb" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 text-lg font-medium transition">
-            🧠 View Case Study Notebook →
+              🧠 View Case Study Notebook →
             </a>
           </div>
         </div>
 
         {/* === Project 2 === */}
         <div className="group bg-[#1e1e1e] p-4 rounded-xl transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl">
-          <img src={amazonLaptopsGif} alt="Amazon Laptops Demo" className="w-full rounded-lg transition duration-300 group-hover:opacity-90" />
+          <img src={splitmateGif} alt="SplitMate Demo" className="w-full rounded-lg transition duration-300 group-hover:opacity-90" />
           <h2 className="text-3xl font-extrabold text-white mt-4 transition duration-300 group-hover:text-orange-300">
-            Amazon Laptops Competitor Analysis
+            SplitMate: Receipt Splitting AI Assistant
           </h2>
           <p className="text-lg text-gray-300 mt-2 transition duration-300 group-hover:text-gray-200">
-            This project collects and analyzes Amazon laptop product listings for competitive analysis using the Amazon Product Advertising API, storing results in a SQLite database and visualizing in Tableau.
+            A Streamlit app that uses OCR and Large Language Models to automatically parse receipts and suggest equitable splits among participants.
           </p>
           <p className="text-sm text-gray-400 italic mt-1">
-            Tools: Python, SQLite3, Requests, Tableau
+            Tools: Python, Streamlit, Google Cloud Vision, OpenAI GPT
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
-            <a href="https://public.tableau.com/app/profile/christina.huynh1211/viz/AmazonLaptopReviewsDashboard/Dashboard1" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 text-lg font-medium transition">
-              📊 View Tableau Dashboard →
+            <a href="https://splitmate.streamlit.app" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-300 text-lg font-medium transition">
+              🚀 Live Demo →
             </a>
-            <a href="https://github.com/cvhuynh1777/amazon_data_project" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 text-lg font-medium transition">
+            <a href="https://github.com/cvhuynh1777/splitmate" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 text-lg font-medium transition">
               🧠 View GitHub Repo →
             </a>
           </div>
@@ -105,7 +105,7 @@ function Projects() {
           </p>
           <div className="pt-2">
             <a href="https://github.com/cvhuynh1777/IEOR142/blob/main/README.md" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 text-lg font-medium transition">
-            🧠 View Report →
+              🧠 View Report →
             </a>
           </div>
         </div>
