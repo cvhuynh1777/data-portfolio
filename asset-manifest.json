@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/data-portfolio/static/css/main.93251e8e.css",
-    "main.js": "/data-portfolio/static/js/main.e6ad0069.js",
+    "main.js": "/data-portfolio/static/js/main.2ecddd1f.js",
     "static/js/453.57cded2c.chunk.js": "/data-portfolio/static/js/453.57cded2c.chunk.js",
     "static/media/shot_predictor_demo.gif": "/data-portfolio/static/media/shot_predictor_demo.73391c6290aba1ed9ee9.gif",
-    "static/media/amazon_laptops.gif": "/data-portfolio/static/media/amazon_laptops.3dd51a5f50b915fc426e.gif",
     "static/media/reviews_sentiment_analysis.gif": "/data-portfolio/static/media/reviews_sentiment_analysis.96b21dbb11dd5106a7c7.gif",
     "static/media/nba_champion.gif": "/data-portfolio/static/media/nba_champion.002eae90264098d546f1.gif",
     "index.html": "/data-portfolio/index.html",
     "main.93251e8e.css.map": "/data-portfolio/static/css/main.93251e8e.css.map",
-    "main.e6ad0069.js.map": "/data-portfolio/static/js/main.e6ad0069.js.map",
+    "main.2ecddd1f.js.map": "/data-portfolio/static/js/main.2ecddd1f.js.map",
     "453.57cded2c.chunk.js.map": "/data-portfolio/static/js/453.57cded2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93251e8e.css",
-    "static/js/main.e6ad0069.js"
+    "static/js/main.2ecddd1f.js"
   ]
 }
