@@ -49,7 +49,7 @@ function Projects() {
 
         {/* === Project 2 === */}
         <div className="group bg-[#1e1e1e] p-4 rounded-xl transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl">
-          <img src={splitmateGif} alt="SplitMate Demo" className="w-full rounded-lg transition duration-300 group-hover:opacity-90" />
+          
           <h2 className="text-3xl font-extrabold text-white mt-4 transition duration-300 group-hover:text-orange-300">
             SplitMate: Receipt Splitting AI Assistant
           </h2>
