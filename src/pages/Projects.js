@@ -1,5 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
+import shotPredictorGif from "../assets/shot_predictor_demo.gif";
+import splitmateGif from "../assets/splitmate_demo.gif";
+import reviewSentimentGif from "../assets/reviews_sentiment_analysis.gif";
+import nbaChampionGif from "../assets/nba_champion.gif";
 
 function Projects() {
   return (
@@ -26,7 +30,7 @@ function Projects() {
         {/* === Project 1 === */}
         <div className="group bg-[#1e1e1e] p-4 rounded-xl transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl">
           <img
-            src="/assets/shot_predictor_demo.gif"
+            src={shotPredictorGif}
             alt="NBA Shot Predictor Demo"
             className="w-full rounded-lg transition duration-300 group-hover:opacity-90"
           />
@@ -48,7 +52,7 @@ function Projects() {
               rel="noopener noreferrer"
               className="text-orange-400 hover:text-orange-300 text-lg font-medium transition-colors"
             >
-              <span aria-hidden="true">📊</span> View Tableau Dashboard →
+              📊 View Tableau Dashboard →
             </a>
             <a
               href="https://github.com/cvhuynh1777/nba_shot_analysis_project/blob/main/NBA%20Shot%20Analysis.ipynb"
@@ -56,7 +60,7 @@ function Projects() {
               rel="noopener noreferrer"
               className="text-green-400 hover:text-green-300 text-lg font-medium transition-colors"
             >
-              <span aria-hidden="true">🧠</span> View Case Study Notebook →
+              🧠 View Case Study Notebook →
             </a>
           </div>
         </div>
@@ -64,7 +68,7 @@ function Projects() {
         {/* === Project 2 === */}
         <div className="group bg-[#1e1e1e] p-4 rounded-xl transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl">
           <img
-            src="/assets/splitmate_demo.gif"
+            src={splitmateGif}
             alt="SplitMate Demo"
             className="w-full rounded-lg transition duration-300 group-hover:opacity-90"
           />
@@ -86,7 +90,7 @@ function Projects() {
               rel="noopener noreferrer"
               className="text-green-400 hover:text-green-300 text-lg font-medium transition-colors"
             >
-              <span aria-hidden="true">🧠</span> View GitHub Repo →
+              🧠 View GitHub Repo →
             </a>
           </div>
         </div>
@@ -94,7 +98,7 @@ function Projects() {
         {/* === Project 3 === */}
         <div className="group bg-[#1e1e1e] p-4 rounded-xl transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl">
           <img
-            src="/assets/reviews_sentiment_analysis.gif"
+            src={reviewSentimentGif}
             alt="Review Sentiment Analysis Demo"
             className="w-full rounded-lg transition duration-300 group-hover:opacity-90"
           />
@@ -117,7 +121,7 @@ function Projects() {
               rel="noopener noreferrer"
               className="text-orange-400 hover:text-orange-300 text-lg font-medium transition-colors"
             >
-              <span aria-hidden="true">📊</span> View Tableau Dashboard →
+              📊 View Tableau Dashboard →
             </a>
             <a
               href="https://github.com/cvhuynh1777/airline_review_sentiment/blob/main/Reviews%20Sentiment%20Analysis.ipynb"
@@ -125,7 +129,7 @@ function Projects() {
               rel="noopener noreferrer"
               className="text-green-400 hover:text-green-300 text-lg font-medium transition-colors"
             >
-              <span aria-hidden="true">🧠</span> View GitHub Repo →
+              🧠 View GitHub Repo →
             </a>
           </div>
         </div>
@@ -133,7 +137,7 @@ function Projects() {
         {/* === Project 4 === */}
         <div className="group bg-[#1e1e1e] p-4 rounded-xl transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl">
           <img
-            src="/assets/nba_champion.gif"
+            src={nbaChampionGif}
             alt="NBA Champion Project"
             className="w-full rounded-lg transition duration-300 group-hover:opacity-90"
           />
@@ -156,7 +160,7 @@ function Projects() {
               rel="noopener noreferrer"
               className="text-purple-400 hover:text-purple-300 text-lg font-medium transition-colors"
             >
-              <span aria-hidden="true">🧠</span> View Report →
+              🧠 View Report →
             </a>
           </div>
         </div>
