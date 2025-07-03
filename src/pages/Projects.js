@@ -81,7 +81,7 @@ function Projects() {
             participants.
           </p>
           <p className="text-sm text-gray-400 italic mt-1">
-            Tools: Python, Streamlit, Google Cloud Vision, OpenAI GPT
+            Tools: Python, Streamlit, Google Cloud Vision, Hugging Face Zephyr-7B (via huggingface-hub)
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
             <a
