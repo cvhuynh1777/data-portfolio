@@ -4,6 +4,8 @@ import shotPredictorGif from "../assets/shot_predictor_demo.gif";
 import splitmateGif from "../assets/splitmate_demo.gif";
 import reviewSentimentGif from "../assets/reviews_sentiment_analysis.gif";
 import nbaChampionGif from "../assets/nba_champion.gif";
+import pulseGif from "../assets/pulse_demo.gif";
+
 
 function Projects() {
   return (
@@ -26,6 +28,41 @@ function Projects() {
         >
           My Projects
         </motion.h1>
+        {/* === Project 5 === */}
+        <div className="group bg-[#1e1e1e] p-4 rounded-xl transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl">
+          <img
+            src={pulseGif}
+            alt="Pulse Sentiment Analysis Demo"
+            className="w-full rounded-lg transition duration-300 group-hover:opacity-90"
+          />
+          <h2 className="text-3xl font-extrabold text-white mt-4 transition-colors duration-300 group-hover:text-pink-300">
+            Pulse: YouTube Sentiment Explorer
+          </h2>
+          <p className="text-lg text-gray-300 mt-2 transition-colors duration-300 group-hover:text-gray-200">
+            A pastel-themed web app that analyzes YouTube audience sentiment using VADER NLP. Users can check the emotional pulse of trending videos, search topics, or paste any URL for real-time analysis.
+          </p>
+          <p className="text-sm text-gray-400 italic mt-1">
+            Built with Next.js, TailwindCSS, VADER, and Google YouTube Data API.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 pt-2">
+            <a
+              href="https://pulse-app-one.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-pink-400 hover:text-pink-300 text-lg font-medium transition-colors"
+            >
+              🌐 View Live App →
+            </a>
+            <a
+              href="https://github.com/cvhuynh1777/PulseApp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-400 hover:text-green-300 text-lg font-medium transition-colors"
+            >
+              🧠 View GitHub Repo →
+            </a>
+          </div>
+        </div>
 
         {/* === Project 1 === */}
         <div className="group bg-[#1e1e1e] p-4 rounded-xl transition-transform duration-300 hover:scale-[1.02] hover:shadow-2xl">
