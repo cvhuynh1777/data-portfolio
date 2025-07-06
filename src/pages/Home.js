@@ -3,8 +3,12 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <section id="home" className="pt-28 min-h-screen flex flex-col items-center justify-center text-center px-8 md:px-20 lg:px-40 bg-[#0D0D0D] text-[#F8F4F0] relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-[#264653] to-[#2a9d8f] opacity-30 blur-3xl -z-10"></div>
+    <section
+      id="home"
+      className="pt-28 min-h-screen flex flex-col items-center justify-center text-center px-8 md:px-20 lg:px-40 bg-[#0D0D0D] text-[#F8F4F0] relative overflow-hidden"
+    >
+      {/* Pink glow background */}
+      <div className="absolute inset-0 bg-gradient-to-r from-pink-400/20 via-pink-500/10 to-pink-600/20 opacity-30 blur-3xl -z-10 animate-pulse"></div>
 
       <motion.div
         className="space-y-6"
@@ -18,7 +22,7 @@ const Home = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2, duration: 0.6 }}
         >
-          Hi, I'm <span className="text-[#E6B17E]">Christina Huynh</span> 👋
+          Hi, I'm <span className="text-pink-400">Christina Huynh</span> 👋
         </motion.h1>
 
         <motion.p
@@ -38,13 +42,14 @@ const Home = () => {
         >
           <a
             href="#resume"
-            className="bg-[#E6B17E] text-[#0D0D0D] px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:scale-105 transition-transform"
+            className="bg-pink-500 text-[#0D0D0D] px-6 py-3 rounded-full text-lg font-semibold shadow-lg hover:scale-105 hover:shadow-pink-500/50 transition-all duration-300"
           >
             View Resume
           </a>
+
           <a
             href="#projects"
-            className="border border-[#E6B17E] text-[#E6B17E] px-6 py-3 rounded-full text-lg font-semibold hover:bg-[#E6B17E] hover:text-[#0D0D0D] transition-colors"
+            className="border border-pink-500 text-pink-400 px-6 py-3 rounded-full text-lg font-semibold hover:bg-pink-500 hover:text-[#0D0D0D] hover:shadow-pink-500/30 transition-all duration-300"
           >
             See Projects
           </a>
