@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/data-portfolio/static/css/main.da4e13ad.css",
-    "main.js": "/data-portfolio/static/js/main.e91c0aab.js",
+    "main.css": "/data-portfolio/static/css/main.979d11ce.css",
+    "main.js": "/data-portfolio/static/js/main.dbcfee8b.js",
     "static/js/453.cf000960.chunk.js": "/data-portfolio/static/js/453.cf000960.chunk.js",
     "static/media/shot_predictor_demo.gif": "/data-portfolio/static/media/shot_predictor_demo.628091607f1410eb8613.gif",
     "static/media/splitmate_demo.gif": "/data-portfolio/static/media/splitmate_demo.f66bf05d86f3e14547cb.gif",
     "static/media/pulse_demo.gif": "/data-portfolio/static/media/pulse_demo.f62e8283590a4e480f5e.gif",
     "static/media/nba_champion.gif": "/data-portfolio/static/media/nba_champion.9829c0d6c531e89becbf.gif",
     "index.html": "/data-portfolio/index.html",
-    "main.da4e13ad.css.map": "/data-portfolio/static/css/main.da4e13ad.css.map",
-    "main.e91c0aab.js.map": "/data-portfolio/static/js/main.e91c0aab.js.map",
+    "main.979d11ce.css.map": "/data-portfolio/static/css/main.979d11ce.css.map",
+    "main.dbcfee8b.js.map": "/data-portfolio/static/js/main.dbcfee8b.js.map",
     "453.cf000960.chunk.js.map": "/data-portfolio/static/js/453.cf000960.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da4e13ad.css",
-    "static/js/main.e91c0aab.js"
+    "static/css/main.979d11ce.css",
+    "static/js/main.dbcfee8b.js"
   ]
 }
